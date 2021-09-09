@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.493);
+  opacity: 90%;
+  border-radius: 10px;
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  width: 220px;
+  padding: auto;
+}
+
+#cardcontent{
+  padding: 5%;
+  text-align: center;
+}
+
+.button{
+  height: 1rem;
+  width: 1rem;
+  color: rgb(255, 6, 6);
+  background-color:transparent;
+  border-width: 0;
+}
+/*padding: el espacio alrededor del contenido.*/
+  /*margin: el espacio fuera del elemento que lo separa de los demás*/

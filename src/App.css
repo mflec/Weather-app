@@ -1,0 +1,59 @@
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #954ed8, #23a6d5, #23d5ab, #a0d523);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.title {
+  height: 50px;
+  font-size: xx-large;
+  background-color: #da7d7d;
+  border-radius: 20px;
+}
+
+.main-header {
+  min-height: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: xx-large;
+  color: rgb(19, 13, 19);
+  background-color: rgba(75, 75, 75, 0.644);
+}
+
+.App-link {
+  color: #030303;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#title{
+  color: #ffffff91;
+  position: fixed;
+  top: 0;
+  left: 0;
+}

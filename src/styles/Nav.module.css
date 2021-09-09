@@ -1,0 +1,27 @@
+.inputb {
+    height: 3rem;
+    font-size: 1.3rem;
+    width: 40rem;
+    line-height: 1;
+    background-color:rgba(0, 0, 0, 0.493);
+    align-content: right;
+    border-style: solid;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    border-width: 0.01rem;
+    text-align: justify;
+}
+
+.buttonnav{
+    height: 3rem;
+    background-color: rgba(0, 0, 0, 0.493);
+    border-style: solid;
+    border-color: #ffffff;
+    color: #ffffff;
+    border-radius: 0.5rem;
+    border-width: 0.01rem;
+    margin-left: 1rem;
+    font-size: 1.3rem;
+    
+}
